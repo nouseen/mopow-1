@@ -1,0 +1,53 @@
+.mdkj{
+	padding-top:154px;
+}
+.mdkj_logo{
+	margin-top:90px;
+	margin-bottom:110px;
+	width:100%;
+	text-align:center;
+}
+.ckkj{
+	padding:0 40px;
+}
+.ckkj h3{
+	font-size:20px;
+	color: #464646;
+	margin-top:14px;
+	padding-bottom:24px;
+}
+.ckkj p{
+	text-indent:2em;
+	font-size:20px;
+	color: #464646;
+	line-height:40px;
+}
+.ckkj .ckkj_img{
+	text-align:center;
+	margin-top:8px;
+}
+.ckkj .ckkj_img span{
+	display:block;
+	margin:0 auto;
+	margin-top:48px;
+	width: 849px;
+	height:566px; 
+	background-color:rgb(162,162,162);
+}
+.ckkj .ckkj_img span:first-child{
+	margin-top:0px;
+}
+.ck_end{
+	margin-top: 80px;
+	margin-bottom: 276px;
+}
+.ck_end p{
+	text-align:center;
+	font-size: 16px;
+	color: #131313;
+	font-weight: bold;
+	line-height: 46px;
+}
+
+
+

@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/*css重置*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; background: transparent; list-style:none; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del,s { text-decoration: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+address, caption, cite, code, dfn, em, var {font-style: normal;font-weight: normal}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#333; text-decoration:none;}
+html{height:100%;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent;}
+body{font-family:"Microsoft Yahei","微软雅黑","宋体",Helvetica,Arial,sans-serif;font-size:14px;}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*common css*/
+.mopo{
+	background:#ffffff; 
+}
+.banner img{
+	width:100%;
+	height:auto;
+}
+.container {
+  width:1089px;
+  margin-right: auto;
+  margin-left: auto;
+}
+ 
+.fl{float:left;}
+.fr{float:right;}
+.nf{clear:both;}
+.hid{overflow:hidden;}
+textarea{overflow:auto;resize:none}
+.clearfix{*zoom:1}
+.clearfix:after{display:block;visibility:hidden;clear:both;height:0;content:'.';font-size:0}
+input,textarea{outline:none;}
+input,select,textarea{-webkit-appearance: none; }
+.block{display: block;}
+
+/* 顶部  */
+.top{
+	height:140px;
+}
+.top .nav{
+	width:1250px;
+	margin:0 auto;
+}
+.topLogo{
+	width:359px;
+    height:140px;
+    display: inline-block;
+    background: url(img/toplogo.png) no-repeat 0 center;
+    float: left;
+} 
+.top .nav .topnav{
+	float:left;
+	margin-top:50px;
+	margin-left: 104px;
+}
+.top .nav .topnav a{
+    position: relative;
+    display: inline-block;
+    font-size:17px;
+}
+.top .nav .topnav a:nth-child(2){
+	margin-left:43px;
+}
+.top .nav .topnav a:nth-child(3){
+	margin-left:47px;
+}
+.top .nav .topnav a:nth-child(4){
+	margin-left:39px;
+}
+.top .nav .topnav a:nth-child(5){
+	margin-left:42px;
+}
+.top .nav .topnav a:nth-child(6){
+	margin-left:28px;
+}
+.top .nav .topnav a:nth-child(7){
+	margin-left:27px;
+}
+
+.top .nav .topnav a span{
+     display: block;
+     font-weight:550;
+}
+.top .nav .topnav a span:first-child{
+    font-size: 10px;
+    margin-bottom:15px; 
+} 
+.top .nav .topnav a.active span{
+	 color: #FF5C5C; 
+} 
+.top .nav .topnav a.active span:first-child{
+	 color: #DE1613; 
+} 
+.top .nav .topnav a:hover span{
+	 color: #FF5C5C; 
+} 
+.top .nav .topnav a:hover span:first-child{
+	 color: #DE1613; 
+} 
+
+/* 底部 */
+.footer{
+	width:100%;
+	height:667px;
+	color:white;
+	background-color: #F5AC3A;	
+}
+.footer .container .footer_top{
+	padding:84px 0 0 0; 
+	width:1098px;
+	position:relative;
+	margin:0 auto;
+	display:table;
+}
+.footer .container .footer_top dl{
+	float:left;	
+	width:176px;
+	color:#FFFFFF;
+}
+.footer_top dl a{
+	color:#FFFFFF;
+}
+.footer_top dl a:active,
+.footer_top dl a:hover{
+	color:#FFFFFF;
+	text-decoration: underline;
+}
+.footer .container .footer_top dl a:HOVER{
+	color:#FFFFFF;
+}
+.footer .container .footer_top dl dt{
+	font-size:12px;
+	margin-bottom:32px;
+}
+.footer .container .footer_top dl dd{
+	/* font-weight:bold;
+	font-family:"FZLTHK"; */
+	font-size:14px;
+	line-height:20px;
+}
+.footer .container .footer_top dl dd:nth-child(2){
+	font-size:20px;
+}
+.footer .container .footer_top dl dd:nth-child(3){
+	margin-top: 10px;
+}
+.footer .container .footer_bottom{
+	margin-top:130px;
+	position:relative;
+}
+.footer .container .footer_bottom .footer_bottom_l{
+	width:567px;
+	float:left;
+}
+.footer .container .footer_bottom .footer_bottom_l .contactico a{
+	margin-right: 13px;
+}
+.footer .container .footer_bottom .footer_bottom_l .contact{
+	margin-top:26px;
+}
+.footer .container .footer_bottom .footer_bottom_l .contact div{
+	line-height:26px;
+}
+.footer .container .footer_bottom .footer_bottom_r{
+	float:left;
+}
+.footer .container .footer_bottom .footer_bottom_r  div{
+	float:left;
+	width:180px;
+	height:180px;
+	background-color:white;
+	margin-right:23px;
+}
+
+
+

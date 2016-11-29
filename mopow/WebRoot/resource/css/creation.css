@@ -1,0 +1,24 @@
+.creation{
+	padding-top:80px;
+}
+.creation ul{
+	display:table;
+}
+.creation ul li{
+	float:left;
+	width:126px;
+	height:105px;
+	margin:0 100px;
+}
+.creation ul li:nth-child(1){
+	background:url("img/brands_1.png")no-repeat bottom; 
+}
+.creation ul li.active{
+	background:url("img/brands.png")no-repeat bottom; 
+}
+.creation ul li:nth-child(2){
+	background:url("img/product_1.png")no-repeat bottom;
+}
+.creation ul li:nth-child(3){
+	background:url("img/spread_1.png")no-repeat bottom;
+}
