@@ -11,18 +11,7 @@
 	height:105px;
 	margin:0 100px;
 }
-.creation ul li:nth-child(1){
-	background:url("img/brands_1.png")no-repeat bottom; 
-}
-.creation ul li.active{
-	background:url("img/brands.png")no-repeat bottom; 
-}
-.creation ul li:nth-child(2){
-	background:url("img/product_1.png")no-repeat bottom;
-}
-.creation ul li:nth-child(3){
-	background:url("img/spread_1.png")no-repeat bottom;
-}
+
 .creation .container .tab{padding: 80px 80px 0;*width: 1098px; }
 .creation .container .tab>a{width: 33.33%;margin-bottom: 100px; text-align: center;display: block;float: left;font-size: 32px;color: #484848;padding: 28px 0 0;position: relative;}
 /* .creation .container .tab>a:HOVER{background: url(img/Inn-icon.png) no-repeat top center;} */
