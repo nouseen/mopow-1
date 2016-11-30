@@ -10,9 +10,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base href="<%=basePath%>">
     
-    <title>Mo 创新</title>
+    <title>Mo 创新 - 魔幻动力</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="shortcut icon" href="resource/images/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="expires" content="0">    
 	<link rel="stylesheet" type="text/css" href="resource/css/base.css">
 	<link rel="stylesheet" type="text/css" href="resource/css/creation.css">
@@ -22,7 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	<div class="mopo">
   			 
-  			<jsp:include page="common/top.jsp"/>
+  			<jsp:include page="page/common/top.jsp"/>
   			
   			<div class="banner">
   				 <img  src="resource/images/crea_banner.png"> 
@@ -54,22 +55,23 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		                    <div class="tab-box1">
 		                        <h1><span class="point"></span>PR（线下活动）</h1>
 		                        <a>
-		                            <h2>【小可乐设计创意大赛】</h2>
-		                            <img src="/upload/201606/10/201606101202173821.png" alt="">
+		                            <h2>【设计创意大赛】</h2>
+		                            <img src="resource/images/201606101202173821.png" alt="">
 		                        </a>
 		                        <a>
-		                            <h2>【hello菜菜的“爆点计划”】</h2>
-		                            <img src="/upload/201603/23/201603232108151013.jpg" alt="" style="width: 47%;margin-right: 2%;"><img src="/upload/201603/23/201603232108294481.jpg" alt="" style="width: 47%;">
+		                            <h2>【设计创意大赛】</h2>
+		                            <img src="resource/images/201603232108151013.jpg" alt="" style="width: 47%;margin-right: 2%;">
+		                            <img src="resource/images/201603232108294481.jpg" alt="" style="width: 47%;">
 		                        </a>
 		                        <h1><span class="point"></span>线上推广</h1>
 		                        <div class="bb">
 		                            <a>
-		                                <h2>【你许愿，我送礼】</h2>
-		                                <img src="/upload/201603/23/201603232119488309.jpg" alt="">
+		                                <h2>【设计创意大赛】</h2>
+		                                <img src="resource/images/201603232119488309.jpg" alt="">
 		                            </a>
 		                            <a>
 		                                <h2>【BIGBANG三寻门票免费送】</h2>
-		                                <img src="/upload/201603/23/201603232122517394.jpg" alt="">
+		                                <img src="resource/images/201603232122517394.jpg" alt="">
 		                            </a>
 		                        </div>
 		                      </div>
@@ -80,7 +82,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   			</div>
   			
   			
-  			<jsp:include page="common/footer.jsp"/>
+  			<jsp:include page="page/common/footer.jsp"/>
   	</div>
   
   </body>

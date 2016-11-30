@@ -13,6 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <title>首页</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="shortcut icon" href="resource/images/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="expires" content="0">    
 	<link rel="stylesheet" type="text/css" href="resource/css/base.css">
 	<link rel="stylesheet" type="text/css" href="resource/css/mo++.css">
@@ -21,7 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   	<div class="mopo">
   			 
-  			<jsp:include page="common/top.jsp"/>
+  			<jsp:include page="page/common/top.jsp"/>
   			
   			<div class="banner">
   				 <img  src="resource/images/mo++_banner.png"> 
@@ -80,7 +81,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   			</div>
   			
   			
-  			<jsp:include page="common/footer.jsp"/>
+  			<jsp:include page="page/common/footer.jsp"/>
   	</div>
   
   </body>

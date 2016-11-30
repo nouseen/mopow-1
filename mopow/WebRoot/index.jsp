@@ -13,6 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <title>首页</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="shortcut icon" href="resource/images/favicon.ico" type="image/x-icon" />
 	<meta http-equiv="expires" content="0">    
 	<!-- <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page"> -->
@@ -32,11 +33,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				 <div class="container">
   				 		<div class="iptitle"><span>IP 品牌</span></div>
   				 		<ul>
-  				 			<li><span></span></li>
-  				 			<li><span></span></li>
-  				 			<li><span></span></li>
-  				 			<li><span></span></li>
-  				 			<li><span></span></li>
+  				 			  <li>
+                   				 <a href=""><img style="width: 209px; height: 210px" src="resource/images/201606101627182601.png" alt=""></a>
+			                </li>
+			                <li>
+			                    <a href=""><img style="width: 209px; height: 210px" src="resource/images/201609211013578619.png" alt=""></a>
+			                </li>
+			                
+			                <li>
+			                    <a href=""><img style="width: 209px; height: 210px" src="resource/images/201606092343188306.png" alt=""></a>
+			                </li>
+			                
+			                <li>
+			                    <a href=""><img style="width: 209px; height: 210px" src="resource/images/201609211014366592.png" alt=""></a>
+			                </li>
+			                
+			                <li>
+			                    <a href=""><img style="width: 209px; height: 210px" src="resource/images/201606101031334127.png" alt=""></a>
+			                </li>
   				 		</ul>
   				 </div>
   			</div>

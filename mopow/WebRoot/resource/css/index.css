@@ -20,21 +20,18 @@
 }
 .ipbrand ul li{
 	float:left;
-	width:166px;
+	width: 20%;
+	/* width:166px;
 	height:166px;
 	margin:0 25px;
 	border-radius:50%;
 	background-color:white;
-    box-shadow:0 0 1px 1px rgba(150,150,150,.12); 
+    box-shadow:0 0 1px 1px rgba(150,150,150,.12);  */
 }
-.ipbrand ul li span{
-	display:block;
-	width:148px;
-	height:148px;
-	margin:9px 0 0 9px;
-	border-radius:50%;
-	background:rgb(243,243,243);
-}
+.ipbrand ul li a:hover{position: relative;text-align: center; top: -16%;transform: translate(0px, -16%);transition: .2s all;}
+.ipbrand ul li a:hover img{transform:scale(1.1,1.1);}
+.ipbrand ul li img{transition: 0.5s all;transform:scale(0.8,0.8);*width: 90%;}
+
 .te_product{
 	padding-top: 150px;
 }
@@ -55,13 +52,13 @@ box-shadow:0 0 8px rgba(0,0,0,0.4);z-index:3;
 	float:left;
 	width:523px;
 	height:511px;
-	 margin-left: 22px;
+	 margin-left: 20px;
 }
 .te_product .te_2 .te_2_2 ul li{
 	float:left;
 	width:245px;
 	height:245px;
-	margin:0 15px 15px 0;
+	margin:0 15px 18px 0;
  	box-shadow:0 0 1px 1px rgba(150,150,150,.1); 
 }
 .te_product .te_2 .te_2_2 ul li:HOVER{
