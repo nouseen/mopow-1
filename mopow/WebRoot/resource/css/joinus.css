@@ -1,0 +1,27 @@
+.container_title{
+	margin-top: 60px;
+	margin-bottom: 32px;  
+}
+.the_phone_number{
+	margin-top: 57px; 
+}
+.photo_of_us{
+	width: 254px;
+	height: 254px;  
+	background-color: #123;  
+}
+.p_m_detail{
+	margin:37px 53px 37px 182px;
+} 
+.p_m_name{
+	font-size: 20px;
+	color:#f5ac3a;
+	line-height: 39px;
+	margin-top: 28px;  
+	font-weight: bold;  
+}
+.p_m_tele,.p_m_email{
+	font-size: 20px;
+	color:#717171;
+	line-height: 38px;
+}

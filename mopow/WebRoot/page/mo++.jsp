@@ -12,10 +12,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <title>首页</title>
 	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache"> 
 	<meta http-equiv="expires" content="0">    
+	<link rel="shortcut icon" href="resource/images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="resource/css/base.css">
 	<link rel="stylesheet" type="text/css" href="resource/css/mo++.css">
+	
   </head>
   
   <body>

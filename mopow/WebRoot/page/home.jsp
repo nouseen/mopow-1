@@ -16,14 +16,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta http-equiv="expires" content="0">    
 	<!-- <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page"> -->
+	<link rel="shortcut icon" href="resource/images/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="resource/css/base.css">
 	<link rel="stylesheet" type="text/css" href="resource/css/index.css">
-  </head>
+  </head> 
   
   <body>
   	<div class="mopo">
   			 
-  			<jsp:include page="page/common/top.jsp"/>
+  			<jsp:include page="common/top.jsp"/>
   			
   			<div class="banner">
   				<img  src="resource/images/banner.png">
@@ -140,7 +141,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				 </div>
   			</div>
   			
-  			<jsp:include page="page/common/footer.jsp"/>
+  			<jsp:include page="common/footer.jsp"/>
   	</div>
   
   </body>
