@@ -64,7 +64,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				 <div class="container">
   				 		<div class="iptitle"><span>魔动资讯</span></div>
   				 		 <div class="mo_re">
-  				 		     <div class="mo_re_l">
+  				 		     <div class="mo_re_l h_h">
   				 		     		<div class="mo_re_l_t">
   				 		     			
   				 		     		</div>
@@ -85,7 +85,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				 		     
   				 		     <div class="mo_re_r">
   				 		     	  <div class="mo_re_r_t">
-  				 		     	  	  <div class="mo_re_r_t_1">
+  				 		     	  	  <div class="mo_re_r_t_1 h_h">
   				 		     	  	  	  <div class="mo_re_r_t_l_t"></div>
   				 		     	  	  	  <div class="mo_re_r_t_l_b">
   				 		     	  	  	  		<div class="arrow-up"></div>
@@ -101,9 +101,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		  				 		     			</div>
   				 		     	  	  	  </div>
   				 		     	  	  </div>
-  				 		     	  	   <div class="mo_re_r_t_1">
+  				 		     	  	   <div class="mo_re_r_t_1 h_h">
   				 		     	  	  	   <div class="mo_re_r_t_l_t"></div>
-  				 		     	  	  	 <div class="mo_re_r_t_l_b">
+  				 		     	  	  	    <div class="mo_re_r_t_l_b">
   				 		     	  	  	  		<div class="arrow-up"></div>
 		  				 		     			<div class="connt">
 		  				 		     			<p class="title">魔幻动力创客空间</p>
@@ -118,7 +118,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				 		     	  	  	  </div>
   				 		     	  	  </div>
   				 		     	  </div>
-  				 		     	  <div class="mo_re_r_b">
+  				 		     	  <div class="mo_re_r_b h_h">
   				 		     	  	   <div class="mo_re_r_b_l"></div>
   				 		     	  	   <div class="mo_re_r_b_r">
   				 		     	  	   		<div class="arrow-up"></div>

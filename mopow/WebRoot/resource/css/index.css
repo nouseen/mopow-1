@@ -48,6 +48,9 @@
 	height:511px;
 	border: 1px solid rgb(150,150,150);
 }
+.te_product .te_2 .te_2_1:HOVER{
+box-shadow:0 0 8px rgba(0,0,0,0.4);z-index:3;
+}
 .te_product .te_2 .te_2_2{
 	float:left;
 	width:523px;
@@ -56,10 +59,13 @@
 }
 .te_product .te_2 .te_2_2 ul li{
 	float:left;
-	width:240px;
-	height:240px;
-	margin:8px;
+	width:245px;
+	height:245px;
+	margin:0 15px 15px 0;
  	box-shadow:0 0 1px 1px rgba(150,150,150,.1); 
+}
+.te_product .te_2 .te_2_2 ul li:HOVER{
+ 	box-shadow:0 0 8px rgba(0,0,0,0.4);z-index:3;
 }
 .mo_resources{
 	margin-top:	90px;
@@ -182,5 +188,7 @@
 	height:255px;
 	padding:10px 8px;
 }
-
+.mo_resources .h_h:HOVER {
+	box-shadow:0 0 8px rgba(0,0,0,0.4);z-index:3;
+}
 

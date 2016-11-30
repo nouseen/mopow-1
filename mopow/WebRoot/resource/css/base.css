@@ -14,7 +14,7 @@ address, caption, cite, code, dfn, em, var {font-style: normal;font-weight: norm
 a{ color:#333; text-decoration:none;}
 a:hover{ color:#333; text-decoration:none;}
 html{height:100%;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:transparent;}
-body{font-family:"Microsoft Yahei","微软雅黑","宋体",Helvetica,Arial,sans-serif;font-size:14px;}
+body{    padding-top: 140px;font-family:"Microsoft Yahei","微软雅黑","宋体",Helvetica,Arial,sans-serif;font-size:14px;}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -48,6 +48,11 @@ input,select,textarea{-webkit-appearance: none; }
 /* 顶部  */
 .top{
 	height:140px;
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
 }
 .top .nav{
 	width:1250px;

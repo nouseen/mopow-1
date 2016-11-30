@@ -1,5 +1,6 @@
 .creation{
 	padding-top:80px;
+	padding-bottom: 120px;
 }
 .creation ul{
 	display:table;
@@ -22,3 +23,27 @@
 .creation ul li:nth-child(3){
 	background:url("img/spread_1.png")no-repeat bottom;
 }
+.creation .container .tab{padding: 80px 80px 0;*width: 1098px; }
+.creation .container .tab>a{width: 33.33%;margin-bottom: 100px; text-align: center;display: block;float: left;font-size: 32px;color: #484848;padding: 28px 0 0;position: relative;}
+/* .creation .container .tab>a:HOVER{background: url(img/Inn-icon.png) no-repeat top center;} */
+.creation .container .tab>a.active{background: url(img/Inn-icon.png) no-repeat top center;} 
+.creation .container .tab>a span{display: block;font-size: 16px;letter-spacing:6px;margin-top: 20px;}
+.creation .container .tab .point{width: 6px;height: 6px;background: #878787;display: block;position: absolute;border-radius:100% ;-moz-border-radius:100% ;-webkit-border-radius:100% ;}
+.creation .container .tab .point.point1{top: 27px;left: 98%;}
+.creation .container .tab .point.point2{top: 27px;left: 98%;}
+.creation .container .tab #tab-box{width:938px; overflow:hidden;}
+.creation .container .tab #tab-box .tab-box1{display:none;}
+.creation .container .tab #tab-box .tab-box1:FIRST-CHILD{display:block;}
+.creation .container .tab #tab-box div h1{font-size: 24px;color: #5a5a5a;padding-left: 30px;margin: 50px 0 20px;}
+.creation .container .tab #tab-box div h1 span{background: #9cc758;margin-left: -30px;margin-top: 11px;}
+.creation .container .tab #tab-box div img{text-align: center;}
+.creation .container .tab #tab-box div p{font-size: 18px;color: #484848;padding:40px 0 0 80px;line-height: 30px;}
+.creation .container .tab #tab-box .tab-box3{}
+.creation .container .tab #tab-box .tab-box1 a{display: block;}
+.creation .container .tab #tab-box .tab-box1 a{margin-top: 70px;width: 100%;}
+.creation .container .tab #tab-box .tab-box1 a h2{font-size: 14px;color: #424242;}
+.creation .container .tab #tab-box .tab-box1 a img{margin: 30px 0; width: 100%;text-align: center;border: 6px #FFFFFF solid; box-shadow: 0 5px 8px rgba(0,0,0,0.1);-moz-box-shadow: 0 5px 8px rgba(0,0,0,0.1);-webkit-box-shadow: 0 5px 8px rgba(0,0,0,0.1);}
+.creation .container .tab #tab-box .tab-box1 .bb>a{display: inline-block;width: 48%;}
+.creation .container .tab #tab-box .tab-box1 .bb>a img{width: 100%;}
+.creation .container .tab #tab-box .tab-box1 .bb>a p{text-align: center;font-size: 16px;color: #424242;}
+
