@@ -25,3 +25,9 @@
 	color:#717171;
 	line-height: 38px;
 }
+#p_n_list>li{
+	float:left; 
+}
+#p_n_list{
+	overflow: hidden; 
+}

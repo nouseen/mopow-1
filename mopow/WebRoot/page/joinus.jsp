@@ -44,7 +44,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   			<div class="the_phone_number">
   				<div class="container"> 
   					<img src="resource/images/title_joinus.png">
-  					<ul>
+  					<ul id="p_n_list">
+  						<li class="p_m_detail">   
+  							<p class="photo_of_us"> 
+  							</p>   
+  							<p class="p_m_name">店铺联系:王先生</p> 
+  							<p class="p_m_tele">T:0755-2870&nbsp;&nbsp;2233</p>
+  							<p class="p_m_email">E:wangkanglin_26@yahoo.cn</p>
+  						</li>
   						<li class="p_m_detail"> 
   							<p class="photo_of_us"> 
   							</p>   
@@ -52,7 +59,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   							<p class="p_m_tele">T:0755-2870&nbsp;&nbsp;2233</p>
   							<p class="p_m_email">E:wangkanglin_26@yahoo.cn</p>
   						</li>
-  					
+  						<li class="p_m_detail"> 
+  							<p class="photo_of_us"> 
+  							</p>   
+  							<p class="p_m_name">店铺联系:王先生</p> 
+  							<p class="p_m_tele">T:0755-2870&nbsp;&nbsp;2233</p>
+  							<p class="p_m_email">E:wangkanglin_26@yahoo.cn</p>
+  						</li>
   					</ul>
   				</div>
   			</div>
