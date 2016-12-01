@@ -17,9 +17,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   				  	     <dt>CULTURE</dt>
 						  <dd>公司</dd>
 						  <dd>一</dd>
-						  <dd><a href="#">关于我们</a></dd>
-						  <dd><a href="#">发展历程</a></dd>
-						  <dd><a href="#">Mo++</a></dd>
+						  <dd><a href="company.jsp">关于我们</a></dd>
+						  <dd><a href="course.jsp">发展历程</a></dd>
+						  <dd><a href="">Mo++</a></dd>
   				  	  </dl>
   				  	    <dl>
   				  	     <dt>CREATION</dt>
