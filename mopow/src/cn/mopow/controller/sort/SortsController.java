@@ -49,8 +49,8 @@ public class SortsController {
 	 */
 	@ResponseBody
 	@RequestMapping("/delSort.do")
-	public MpResult delSort(String sortId){
-		MpResult bkResult=sortService.delSort(sortId);
+	public MpResult delSort(String sortId,String parentId){
+		MpResult bkResult=sortService.delSort(sortId,parentId);
 		return bkResult;
 	}
 	/**

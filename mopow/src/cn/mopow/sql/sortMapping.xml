@@ -14,7 +14,14 @@
 	 </insert>
 	 
 	  <update id="updateNote">
-		update mp_sorts  set s_note=1  where s_id=#{s_parentid};
+		update mp_sorts  set
+		 <if test="s_note==1">
+			 s_note=1 
+		 </if>
+		  <if test="s_note==0">
+			 s_note=0
+		 </if>
+		  where s_id=#{s_parentid};
  	 </update>
 		
 	  <update id="updateSort">
@@ -24,4 +31,8 @@
 	<delete id="delSort">
 		DELETE FROM mp_sorts WHERE s_id=#{s_id};
 	</delete>
+	
+	 <select id="isNote"  resultType="INTEGER">
+			SELECT  count(1)  a  FROM  mp_sorts where s_parentid=#{s_parentid};
+	</select>
 </mapper>

@@ -40,7 +40,7 @@ public class LoginFileter implements Filter{
 			response1.sendRedirect("/log_in.html");
 			return ;
 		}else{
-			System.out.println("登陆通过！");
+		/*	System.out.println("登陆通过！");*/
 		};
 		chain.doFilter(request, response);
 	}

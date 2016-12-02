@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
 <title>发新闻</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="moban/scripts/jquery-1.9.1.min.js"></script>
 <link href="moban/bootstrap2.3.2/css/bootstrap.min.css" rel="stylesheet" />
+<link href="moban/bootstrap2.3.2/css/bootstrap-select.css" rel="stylesheet" />
 <script type="text/javascript" src="../ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="moban/bootstrap2.3.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="moban/bootstrap2.3.2/js/bootstrap-select.js"></script>
 <style type="text/css">
 #edit { 
 	width: 100%;
@@ -104,14 +106,15 @@ input[type="button"]{
 			    </div>
 			    <div class="form-group">
 			    	<label for="type">文章位置:</label>
-				     <select id="type" class="form-control">
+				  	 <select id="type" class="selectpicker show-tick form-control type">
 	   					<option>请选择文章位置</option>
-	   					<option value="1">轻春梦工厂</option>
+	   				<!-- 	<option value="1">轻春梦工厂</option>
 	   					<option value="2">觅桃成熟式</option>
 	   					<option value="3">梦客</option>
 	   					<option value="4">太极</option>
-	   					<option value="5">自定义</option> 
-	   				  </select>
+	   					<option value="5">自定义</option>  -->
+	   				  </select>  
+	   				 
 			  </div> 
 				<div class="form-group">
 				    <label for="abstr">展示文字:</label>
@@ -134,6 +137,60 @@ input[type="button"]{
 		</div>
 </body>
 
+<script type="text/javascript">
+           
+            loadSort(); 
+    		
+    		function loadSort(){
+    			$.ajax({
+    	        url:"../sort/listSort.do",
+    	        type:"post",
+    	        data:"",
+    	        async: false,
+    	        dataType:"json",
+    	        success:function(result){
+    	        	if(result.data!=null){
+    	        		 var sdata,sortId,sortName,description,parentId,note;
+						sdata=result.data;
+						$(".type").html("");
+						var s_li="";
+				/* 		s_li+="<option>请选择文章位置</option>"; */
+	    	        	for(var i=0;i<sdata.length;i++){
+	    	        		sortId=sdata[i].s_id;
+	    	        		sortName=sdata[i].s_name;
+	    	        		parentId=sdata[i].s_parentid;
+	    	        		description=sdata[i].s_describe
+	    	        		note=sdata[i].s_note;
+	    	        	 	if(parentId==0){
+	    	        	 			if(note==1){
+									  s_li+="<optgroup label="+sortName+" data-subtext=\""+description+"\">";
+										for(var j=0;j<sdata.length;j++){
+											var sortId1=sdata[j].s_id;
+					    	        		var sortName1=sdata[j].s_name;
+					    	        		var parentId1=sdata[j].s_parentid;
+					    	        		var description=sdata[j].s_describe;
+					    	        		var note1=sdata[j].s_note;
+					    	        		if(sortId==parentId1){
+					    	        			s_li+="<option value=\""+sortId1+"\">"+sortName1+"</option>";
+					    	        		  } 
+										  }
+										s_li+=" </optgroup>";
+								}else{
+										s_li+="<optgroup label="+sortName+" data-subtext=\""+description+"\">"+
+						    	        		"<option value=\""+sortId+"\">"+sortName+"</option>"+
+											  "</optgroup>";
+								}
+							 }
+	    	        	}
+	    	        	
+	    	        	$(".type").append(s_li);
+    	          }else{
+    	          	 alert("查询失败！！");
+    	          }
+    			}
+    		}); 
+    		}
 
+</script>
 
 </html>

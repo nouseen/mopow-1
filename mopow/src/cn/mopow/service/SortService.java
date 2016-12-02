@@ -8,7 +8,7 @@ public interface SortService {
 
 	public MpResult addSort(String parentId, String sortName, String description);
 
-	public MpResult delSort(String sortId);
+	public MpResult delSort(String sortId, String parentId);
 
 	public MpResult updateSort(String sortId, String parentId, String sortName,
 			String description);
