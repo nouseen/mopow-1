@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   							  <span>Mo++</span>
   							 </a>
   							<a href="creation.jsp">
-  							  <span>CREATION</span> 
+  							  <span>CREATION</span>
   							  <span>Mo 创新</span>
   							 </a>
   							<a href="brand.jsp">

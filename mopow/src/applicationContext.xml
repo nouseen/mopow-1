@@ -38,7 +38,7 @@
 	<bean id="dbcp" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="username" value="root">
 		</property> 
-		<property name="password" value="sql12345">
+		<property name="password" value="123321">
 		</property>
 		<property name="driverClassName" value="com.mysql.jdbc.Driver">
 		</property>
