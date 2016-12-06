@@ -57,6 +57,7 @@ input,select,textarea{-webkit-appearance: none; }
 .top .nav{
 	width:1250px;
 	margin:0 auto;
+	display:table;
 }
 .topLogo{
 	width:359px;
@@ -70,48 +71,34 @@ input,select,textarea{-webkit-appearance: none; }
 	margin-top:50px;
 	margin-left: 104px;
 }
-.top .nav .topnav a{
+.top .nav .topnav ul li{
+	float:left;
+	width: 111px;
+}
+.top .nav .topnav ul li a{
     position: relative;
     display: inline-block;
     font-size:17px;
 }
-.top .nav .topnav a:nth-child(3){
-	margin-left:43px;
-}
-.top .nav .topnav a:nth-child(4){
-	margin-left:47px;
-}
-.top .nav .topnav a:nth-child(5){
-	margin-left:39px;
-}
-.top .nav .topnav a:nth-child(6){
-	margin-left:42px;
-}
-.top .nav .topnav a:nth-child(7){
-	margin-left:28px;
-}
-.top .nav .topnav a:nth-child(8){
-	margin-left:27px;
-}
 
-.top .nav .topnav a span{
+.top .nav .topnav ul li a span{
      display: block;
      font-weight:550;
 }
-.top .nav .topnav a span:first-child{
+.top .nav .topnav ul li a span:first-child{
     font-size: 10px;
     margin-bottom:15px; 
 } 
-.top .nav .topnav a.active span{
+.top .nav .topnav ul li.active a span{
 	 color: #FF5C5C; 
 } 
-.top .nav .topnav a.active span:first-child{
+.top .nav .topnav ul li.active a span:first-child{
 	 color: #DE1613; 
 } 
-.top .nav .topnav a:hover span{
+.top .nav .topnav ul li a:hover span{
 	 color: #FF5C5C; 
 } 
-.top .nav .topnav a:hover span:first-child{
+.top .nav .topnav ul li a:hover span:first-child{
 	 color: #DE1613; 
 } 
 
