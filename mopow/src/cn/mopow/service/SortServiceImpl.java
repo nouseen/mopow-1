@@ -32,6 +32,7 @@ public class SortServiceImpl implements SortService{
 		map.put("s_parentid", parentId);
 		map.put("s_name", sortName);
 		map.put("s_describe", description);
+		map.put("s_note", 1);
 		
 		sortDao.addSort(map);
 		sortDao.updateNote(map);
@@ -41,12 +42,17 @@ public class SortServiceImpl implements SortService{
 	}
 
 	@Override
-	public MpResult delSort(String sortId) {
+	public MpResult delSort(String sortId,String parentId) {
 		MpResult bkResult=new MpResult();
 		Map<String, Object>map=new HashMap<String, Object>();
 		map.put("s_id", sortId);
+		map.put("s_parentid", parentId);
+		map.put("s_note", 0);
 		sortDao.delSort(map);
-		
+		int isnote=sortDao.isNote(map);
+		if(isnote<=0){
+			sortDao.updateNote(map);
+		}
 		bkResult.setStatus(0);
 		bkResult.setMsg("删除成功！！");
 		return bkResult;

@@ -13,4 +13,6 @@ public interface SortDao {
 	public void delSort(Map<String, Object> map);
 
 	public void updateSort(Map<String, Object> map);
+
+	public int isNote(Map<String, Object> map);
 }

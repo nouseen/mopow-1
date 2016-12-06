@@ -12,42 +12,58 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
   <div class="top w">
   				<div class="nav">
-  						<a class="toplogo"><img  src=""></a>
+  						<a class="toplogo" href=" "></a>
   						<div class="topnav" id="top1">
-  							<a style="display:none;"></a>
-  							<a href=" ">
-  							  <span>HOMEPAGE</span>
-  							  <span>首页</span>
+  						   <ul>
+  							 <li style="display:none;"><a></a></li>
+  						   	 <li>
+  							 <a href=" ">
+	  							  <span>HOMEPAGE</span>
+	  							  <span>首页</span>
   							 </a>
-  							<a href="mo++.jsp">
-  							  <span>PLATFORM</span>
-  							  <span>Mo++</span>
-  							 </a>
-  							<a href="creation.jsp">
-  							  <span>CREATION</span>
-  							  <span>Mo 创新</span>
-  							 </a>
-  							<a href="brand.jsp">
-  							  <span>BRAND</span>
-  							  <span>Mo 品牌</span>
-  							 </a>
-  							<a href="vison.jsp">
-  							  <span>VISON</span>
-  							  <span>Mo 视点</span> 
-  							 </a>
-  							<a href="october10.jsp">
-  							  <span>COOP</span>
-  							  <span>October.10</span>
-  							 </a>
-  							<a href="joinus.jsp">
-  							  <span>PROMOTION</span>
-  							  <span>互相成就</span>
-  							 </a>
+  						   	 </li>
+  						   	 <li>
+	  							<a href="mo++.jsp">
+	  							  <span>PLATFORM</span>
+	  							  <span>Mo++</span>
+	  							 </a>
+  							 </li>
+  							 <li>
+	  							<a href="creation.jsp">
+	  							  <span>CREATION</span>
+	  							  <span>Mo 创新</span>
+	  							 </a>
+	  						 </li>
+	  						 <li>	 
+	  							<a href="brand.jsp">
+	  							  <span>BRAND</span>
+	  							  <span>Mo 品牌</span>
+	  							 </a>
+  							 </li>
+  							 <li>
+	  							<a href="vison.jsp">
+	  							  <span>VISON</span>
+	  							  <span>Mo 视点</span> 
+	  							 </a>
+	  						 </li>
+	  						 <li>
+	  							<a href="october10.jsp">
+	  							  <span>COOP</span>
+	  							  <span>October.10</span>
+	  							 </a>
+	  						 </li>
+	  						 <li>
+	  							<a href="joinus.jsp">
+	  							  <span>PROMOTION</span>
+	  							  <span>互相成就</span>
+	  							 </a>
+  							 </li>
+  							 </ul>
   						</div>
   				</div>
   			</div>
   			<script type="text/javascript">
-  				 (function(){
+			(function(){
 				    var tDiv = document.getElementById("top1"),
 				        links = tDiv.getElementsByTagName("a"),
 				        index = 0,//默认第一个菜单项
@@ -59,17 +75,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				                break;
 				            }
 				        }
-				    }else if(url==""){
+				    }else{
 				    	index=1;
 				    }
-				     else{
-				    	index=0;
-				    }
-				   if(index>=0){
-				    links[index].className = 'active'; 
+				    if(index>=0){
+				    links[index].parentNode.className = 'active';
 				  }
 				  
-				})();	 
+				})();	
+				
+		 
   			
   			</script>
   </body>

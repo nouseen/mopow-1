@@ -76,81 +76,57 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   			
   				<div class="mo_resources">
   				 <div class="container">
-  				 		<div class="iptitle"><span>魔动资讯</span></div>
-  				 		 <div class="mo_re">
-  				 		     <div class="mo_re_l h_h">
-  				 		     		<div class="mo_re_l_t">
-  				 		     			
-  				 		     		</div>
-  				 		     		<div class="mo_re_l_b">
-  				 		     			<div class="arrow-up"></div>
-  				 		     			<div class="connt">
-  				 		     			<p class="title">魔幻动力创客空间</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-	  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-  				 		     			</div>
-  				 		     		</div>
-  				 		     </div>
-  				 		     
-  				 		     <div class="mo_re_r">
-  				 		     	  <div class="mo_re_r_t">
-  				 		     	  	  <div class="mo_re_r_t_1 h_h">
-  				 		     	  	  	  <div class="mo_re_r_t_l_t"></div>
-  				 		     	  	  	  <div class="mo_re_r_t_l_b">
-  				 		     	  	  	  		<div class="arrow-up"></div>
-		  				 		     			<div class="connt">
-		  				 		     			<p class="title">魔幻动力创客空间</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-		  				 		     			</div>
-  				 		     	  	  	  </div>
-  				 		     	  	  </div>
-  				 		     	  	   <div class="mo_re_r_t_1 h_h">
-  				 		     	  	  	   <div class="mo_re_r_t_l_t"></div>
-  				 		     	  	  	    <div class="mo_re_r_t_l_b">
-  				 		     	  	  	  		<div class="arrow-up"></div>
-		  				 		     			<div class="connt">
-		  				 		     			<p class="title">魔幻动力创客空间</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-		  				 		     			</div>
-  				 		     	  	  	  </div>
-  				 		     	  	  </div>
-  				 		     	  </div>
-  				 		     	  <div class="mo_re_r_b h_h">
-  				 		     	  	   <div class="mo_re_r_b_l"></div>
-  				 		     	  	   <div class="mo_re_r_b_r">
-  				 		     	  	   		<div class="arrow-up"></div>
-		  				 		     			<div class="connt">
-		  				 		     			<p class="title">魔幻动力创客空间</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-			  				 		     			<p>近日，魔幻动力创客空间合作内容方面，近日，魔幻动力创客空间合作内容方面</p>
-		  				 		     		</div>
-  				 		     	  	   </div>
-  				 		     	  </div>
-  				 		     </div>
-  				 		     
-  				 		 </div>
+  				 	<div class="iptitle"><span>魔动资讯</span></div>
+	  				<dl class="clearfix">
+	                <!--左边边1个大图-->
+	                <dt>
+	                    <a href="zixun-detail-114.html" target="_blank" class="news_pic">
+	                    </a>
+	                    <div class="h_newscont">
+	                        <em class="h_arrow"></em>
+	                        <h4><a href="zixun-detail-114.html" target="_blank">萌奇文化走向世界，新伙伴Kumamon!</a></h4>
+	                        <p>近日，萌奇文化公司合作内容方面有了新的动向。据悉，这次萌奇幼儿园即将迎来的新同学，正是来自日本熊本县的Kumamon，
+	                        	中国喜欢称作熊本熊，日本最出名的一只熊。</p>
+	                   </div>
+	                </dt>
+	                
+	                <!--右边3个小图-->
+	                
+	                <dd class="h_s">
+	                    <a href="zixun-detail-115.html" target="_blank" class="news_pic">
+	                    </a>
+	                    <div class="h_newscont">
+	                        <em class="h_arrow"></em>
+	                        <h4><a href="zixun-detail-115.html" target="_blank">【 2 0 1 6 &nbsp;萌奇新启航】</a></h4>
+	                        <p>每次搬新家，都意味着萌奇的一大转变和进步。第一次搬家是在2014年7月30日，我们从民治华通源物流园搬到福田田面设计之都；
+	                        	这一次，我们又从设计之都搬到华侨城创意园侨城东路99号首层。新的开始，新的阶段，我们一直在路上，从没停下前进的脚步。</p>
+	                    </div>
+	                </dd>
+	                
+	                <dd class="h_s">
+	                    <a href="zixun-detail-117.html" target="_blank" class="news_pic">
+	                    </a>
+	                    <div class="h_newscont">
+	                        <em class="h_arrow"></em>
+	                        <h4><a href="zixun-detail-117.html" target="_blank">【IP设计指南及图库的重要性】</a></h4>
+	                        <p>What is StyleGuide？什么叫做图库？Style Guide：直译为样式指南，在文化衍生领域Style Guide指的是：
+	                        IP形象图形设计规范指南，简称“设计指南”，是完整的IP衍生系统。通常包含：角色三视图、角色标准色、比例关系、常用动作规范、
+	                                                            底纹图案设计及规范、角色组合规范、色彩使…</p>
+	                    </div>
+	                </dd>
+	                
+	                <dd class="h_s h_h clearfix">
+	                    <a href="zixun-detail-276.html" target="_blank" class="news_pic fl">
+	                    </a>
+	                    <div class="h_newscont fl">
+	                        <em class="h_arrow"></em>
+	                        <h4><a href="zixun-detail-276.html" target="_blank">萌++创客空间，与你共创共成长</a></h4>
+	                        <p>萌++创客空间源自萌奇文化，以萌奇文化优质的资源为基础，为动漫设计创业者、手游创业者、IP创业者提供平台服务；
+	                        	为智能硬件创业者提供外观设计、内部结构设计研发服务、为前沿科技产品配…</p>
+	                    </div>
+	                </dd>
+	            </dl>
+  				 		 
   				 </div>
   			</div>
   			

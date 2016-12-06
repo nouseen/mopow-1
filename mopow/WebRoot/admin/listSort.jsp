@@ -312,12 +312,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	      
     	    $("#delSort").click(function(){
     	   		if($("#sortId").val()!=""){
-    	   		  var sortId=$("#sortId").val();
+    	   		  var sortId=$("#sortId").val().trim();
+    	   		  var parentId=$("#parentId").val().trim();
     	   		   $.ajax({
 		          url:"sort/delSort.do",
 		          type:"post",
 		          dataType:"json",
-		          data:{sortId:sortId},
+		          data:{sortId:sortId,parentId:parentId},
 		          success:function(result){
 					alert(result.msg);
 		            loadSort();
